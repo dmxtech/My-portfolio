@@ -17,7 +17,7 @@
 
 body {
   background-color: rgb(196, 193, 193);
-  font: 14.5em/1 Open Sans, Impact;
+  font: 14.5em/1 Open Monospace, Lucida Console;
   text-transform: uppercase;
   margin: 0;
   height: 80%;
@@ -61,7 +61,7 @@ svg {
 }
 
 .logo {
-  height: 80px;
+  height: 300px;
   margin: 0;
   justify-content: center;
   border-radius: 50%;
@@ -69,9 +69,9 @@ svg {
 }
 
 .myname {
-  color: var(--fontcolor);
+
   font-weight: bold;
-  color: white;
+  color: var(--blackcolor);
   font-size: 40px;
 }
 
@@ -89,19 +89,23 @@ svg {
 
 }
 
-.step-text {
-  flex: 25;
-  font-size: 35px;
-}
 
-.step-text p {
+
+.step-text {
   line-height: 1.3;
   font-size: 30px;
   text-align: left;
   margin-left: 30px;
   width: 100%;
-  color: var(--fontcolor);
+  color: var(--blackcolor);
+  flex: 2 3%;
 
+}
+
+.step-text-list {
+  font-size: 20px;
+  display: block;
+  list-style-type: square;
 }
 
 .galery a {
