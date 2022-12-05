@@ -91,10 +91,11 @@ svg {
   margin: 0 0 0 0px;
   width: 50%;
   display: block;
+  text-align: center;
   justify-content: center;
   flex: 2 3%;
   border-right: 5px solid #39a6b2;
-  height: 150px;
+  height: 80px;
 
 }
 
@@ -103,7 +104,7 @@ svg {
 .step-text {
   line-height: 1.3;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
   margin-left: 30px;
   width: 100%;
   color: var(--blackcolor);
@@ -115,6 +116,7 @@ svg {
   font-size: 20px;
   display: block;
   list-style-type: square;
+  text-align: center;
 }
 
 .galery a {
