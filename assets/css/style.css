@@ -4,8 +4,6 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -17,22 +15,27 @@
 
 body {
   background-color: rgb(196, 193, 193);
-  font: 14.5em/1 Open Monospace, Lucida Console;
+  font-family: "Lucida Console", monospace;
   text-transform: uppercase;
   margin: 0;
   height: 80%;
 }
 
 svg {
-  position: top;
+  position: sticky;
   width: 100%;
   height: 100%;
+}
+
+.animation {
+  font: 14.5em/1 Open Monospace, Lucida Console;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #03383b;
   position: relative;
+
 }
 
 .topnav #myLinks {
@@ -62,7 +65,7 @@ svg {
 
 .logo {
   height: 300px;
-  margin: 0;
+
   justify-content: center;
   border-radius: 50%;
   display: block;
@@ -75,9 +78,15 @@ svg {
   font-size: 40px;
 }
 
+.profile {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
 .section-title {
   font-size: 35px;
-  font-family: bold;
   color: var(--fontcolor);
   margin: 0 0 0 0px;
   width: 50%;
