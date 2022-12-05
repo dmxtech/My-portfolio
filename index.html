@@ -7,16 +7,34 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href=".\assets\css\style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
 </head>
 
 <div class="mobile-container">
     <header class="topnav">
-        <img href="#home" class="logo" src=".\assets\images\avatar.jpg" alt="banner photo" />
-        <h1 class="myname">Full Stack Developer</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 900 300">
+
+            <!-- Symbol -->
+            <symbol id="s-text">
+                <text text-anchor="middle" x="50%" y="50%" dy=".35em">
+                    Hello!
+                </text>
+            </symbol>
+
+            <!-- Duplicate symbols -->
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#s-text" class="text"></use>
+            <use xlink:href="#s-text" class="text"></use>
+
+        </svg>
+
         <nav id="myLinks">
-            <a href="#about-me">About Me</a>
-            <a href="#work">My portfolio</a>
-            <a href="#contact-me">Contact Me</a>
+            <a href="#about-me">Home</a>
+            <a href="#work">Contact</a>
+            <a href="#contact-me">About</a>
 
         </nav>
         <a href="javascript:void(0);" class="icon" onclick="menu()">
@@ -24,19 +42,23 @@
         </a>
     </header>
 
+
     <body>
-        <section class="hero">
-            <h2>Ing. Cesar Javier Contreras</h2>
+        <section>
+            <img href="#home" class="logo" src=".\assets\images\avatar.jpg" alt="banner photo" />
+            <h1 class="myname">Ing. Cesar Javier Contreras</h1>
         </section>
+
         <section id="about">
             <h3 class="section-title">About Me</h3>
 
             <p class="step-text">
-                <br>I am Javier Contreras a mechanical engineer & full stack developer from Tec de Monterrey. </br>
-                I have 4 years experience on the technology field.
-                Because of this experience i can work front or back end as a full stack developer.</br>
-                I have experience in Html, css, javascript, java, express, sequelize, node, mysql, .</br>
-                I design the arquitechture of websites and webapps.<br />
+                <br>Full stack web developer from Tec de Monterrey with a bachelor's degree focused in Mechanical
+                Engineering from The University of Texas at San Antonio. Certificate from Tec de Monterrey in full stack
+                technologies, including JavaScript, Node.js, React.js, express. Great skills in team management,
+                creativity, and debugging. Fascinated by computer science fundamentals and breaking down a problem
+                piece-by-piece to find a solution. Combined with adept problem solving abilities and determination, can
+                make a strong addition to any engineering team.<br />
             </p>
         </section>
 
@@ -68,25 +90,21 @@
             </a>
 
     </body>
-    <footer>
-        <h2 class="section-title">Contact Me</h2>
-        <ul class="contact-info">
-            <li>
-                <a href="#number">+52 8117650333</a>
-            </li>
-            <li>
-                <a href="#website.com">dmxtechinn@gmail.com</a>
-            </li>
-            <li>
-                <a href="#githb">GitHub</a>
-            </li>
-            <li>
-                <a href="#twitter">Linked in</a>
-            </li>
-            <li>
-                <a href="#spotify">Instagram</a>
-            </li>
+    <footer class="footer">
+
+        <div class="social">
+            <a href="#"><i class="icon ion-social-instagram"></i></a>
+            <a href="#"><i class="icon ion-social-snapchat"></i></a>
+            <a href="#"><i class="icon ion-social-twitter"></i></a>
+            <a href="#"><i class="icon ion-social-facebook"></i></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Contact</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
         </ul>
+        <p class="copyright">CJCLM © 2022</p>
+
     </footer>
 
 </div>
